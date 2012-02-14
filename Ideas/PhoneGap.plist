@@ -48,6 +48,8 @@
 		<string>PGSplashScreen</string>
 		<key>com.phonegap.battery</key>
 		<string>PGBattery</string>
+		<key>com.phonegap.facebook.Conneccom.phonegap.facebook.Connect</key>
+		<string>FacebookConnectPlugin</string>
 	</dict>
 </dict>
 </plist>
