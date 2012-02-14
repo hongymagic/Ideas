@@ -1,0 +1,6 @@
+[submodule "dependencies/facbeook-sdk"]
+	path = dependencies/facbeook-sdk
+	url = https://github.com/davejohnson/phonegap-plugin-facebook-connect.git
+[submodule "dependencies/facebook-sdk"]
+	path = dependencies/facebook-sdk
+	url = https://github.com/davejohnson/phonegap-plugin-facebook-connect.git
