@@ -43,5 +43,16 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>come.facebook.phonegap.Ideas</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb244777332265381</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

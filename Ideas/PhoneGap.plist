@@ -19,7 +19,9 @@
 	<key>OpenAllWhitelistURLsInWebView</key>
 	<false/>
 	<key>ExternalHosts</key>
-	<array/>
+	<array>
+		<string>*.facebook.com</string>
+	</array>
 	<key>Plugins</key>
 	<dict>
 		<key>com.phonegap.accelerometer</key>
@@ -48,7 +50,7 @@
 		<string>PGSplashScreen</string>
 		<key>com.phonegap.battery</key>
 		<string>PGBattery</string>
-		<key>com.phonegap.facebook.Conneccom.phonegap.facebook.Connect</key>
+		<key>com.phonegap.facebook.Connect</key>
 		<string>FacebookConnectPlugin</string>
 	</dict>
 </dict>
