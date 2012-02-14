@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Ideas' target in the 'Ideas' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
