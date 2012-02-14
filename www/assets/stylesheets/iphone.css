@@ -1,0 +1,5 @@
+@media only screen and (max-width: 480px) {
+    ol { margin-left: 5px; }
+    ol > li:before { content: ''; }
+    ol > li .btn-group { margin-left: 0; }
+}​

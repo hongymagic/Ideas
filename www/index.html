@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ideas</title>
+  
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css" type="text/css" />
+		<link rel="stylesheet" href="assets/stylesheets/main.css" type="text/css" />
+		<link rel="stylesheet" href="assets/stylesheets/iphone.css" type="text/css" media="screen and (max-width: 480px)" />
+
+		<script type="text/javascript" charset="utf-8" src="assets/javascript/phonegap-1.4.1.js"></script>
+		<script type="text/javascript" charset="utf-8" src="assets/javascript/jquery.js"></script>
+	</head>
+	<body onload="documentReady()">
+		<div class="container">
+			<h1>Your ideas. Rated.</h1>
+			<ol>
+				<li>
+					<blockquote>
+						<p>How about an app which allows developers to prototype web application quickly? A little like jsfiddle.net or jsbin.com or dabblet.com or pastie.com</p>
+						<small>Thomas Choi</small>
+					</blockquote>
+					
+					<div class="btn-group">
+						<button class="btn like" title="Like this idea to promote it!"><i>♥</i> Like</button>
+						<button class="btn comment" title="Leave a comment, perhaps elaborate?"><i>✍</i> Comment</button>
+						<button class="btn show-comments" data-toggle="collapse" data-target="#comment-1"><i>☛</i> Show comments</button>
+					</div>
+					
+					<ul id="comment-1" class="comments collapse">
+						<li>
+							<p>This is a great idea!</p>
+							<small>David G. Hong</small>
+						</li>
+						<li>
+							<p>I also like this idea very much. How about if we could make use of Github gists like dabblet.com?</p>
+							<small>Tommy Lim</small>
+						</li>
+						<li>
+							<p>I think that plays perfectly nice.</p>
+							<small>David G. Hong</small>
+						</li>
+					</ul>
+				</li>
+			</ol>
+		</div>
+		
+		<script type="text/javascript" charset="utf-8" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="assets/javascript/application.js"></script>
+	</body>
+</html>
