@@ -2,19 +2,11 @@ if (typeof PhoneGap == 'undefined') alert('PhoneGap variable does not exist. Che
 if (typeof PG == 'undefined') alert('PG variable does not exist. Check that you have included pg-plugin-fb-connect.js correctly');
 if (typeof FB == 'undefined') alert('FB variable does not exist. Check that you have included the Facebook JS SDK file.');
 
-
-// Fired when application starts
-var documentReady = function () {
-  document.addEventListener("deviceready", onDeviceReady, false);
-};
-
-var c = {};
-c.log = function (message) {
-	navigator.notification.alert(message);
-};
-
+/**
+ * When applictaion is ready
+ */
 var onDeviceReady = function () {
-	c.log('Ready');
+	alert('Ready');
 
   $('[title]').tooltip();
   $('.collapse').collapse({
@@ -63,9 +55,14 @@ var onDeviceReady = function () {
 	    });
 	  })
 	  .on('click', '[data-role="fb:logout"]', function (event) {
-	  	console.log('Logout');
+	  	alert('Logout');
       FB.logout(function (response) {
         updateLoginStatus();
       });
 	  });
+};
+
+// Fired when application starts
+var documentReady = function () {
+  document.addEventListener("deviceready", onDeviceReady, false);
 };
