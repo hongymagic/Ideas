@@ -47,7 +47,7 @@
 		8011EAFB14EB158F0044E8AA /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 8011EAE014EB158F0044E8AA /* Facebook.m */; };
 		8011EAFC14EB158F0044E8AA /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8011EAE314EB158F0044E8AA /* FBLoginDialog.m */; };
 		8011EAFD14EB158F0044E8AA /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8011EAE514EB158F0044E8AA /* FBDialog.m */; };
-		80FD92F514EDDB6100159707 /* FacebookConnectPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FD92F414EDDB6100159707 /* FacebookConnectPlugin.m */; };
+		805FD65014EDF1860044D5AD /* FacebookConnectPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 805FD64F14EDF1860044D5AD /* FacebookConnectPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,8 +127,8 @@
 		8011EAF014EB158F0044E8AA /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		8011EAF114EB158F0044E8AA /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		8011EAF214EB158F0044E8AA /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		80FD92F314EDDB6100159707 /* FacebookConnectPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacebookConnectPlugin.h; path = Plugins/FacebookConnectPlugin.h; sourceTree = "<group>"; };
-		80FD92F414EDDB6100159707 /* FacebookConnectPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacebookConnectPlugin.m; path = Plugins/FacebookConnectPlugin.m; sourceTree = "<group>"; };
+		805FD64E14EDF1860044D5AD /* FacebookConnectPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacebookConnectPlugin.h; path = Plugins/FacebookConnectPlugin.h; sourceTree = "<group>"; };
+		805FD64F14EDF1860044D5AD /* FacebookConnectPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacebookConnectPlugin.m; path = Plugins/FacebookConnectPlugin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,8 +288,8 @@
 		800F0E1714EA793A00427E21 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				80FD92F314EDDB6100159707 /* FacebookConnectPlugin.h */,
-				80FD92F414EDDB6100159707 /* FacebookConnectPlugin.m */,
+				805FD64E14EDF1860044D5AD /* FacebookConnectPlugin.h */,
+				805FD64F14EDF1860044D5AD /* FacebookConnectPlugin.m */,
 				8011EADA14EB158F0044E8AA /* FBConnect */,
 				800F0E1814EA793A00427E21 /* README */,
 			);
@@ -474,7 +474,7 @@
 				8011EAFB14EB158F0044E8AA /* Facebook.m in Sources */,
 				8011EAFC14EB158F0044E8AA /* FBLoginDialog.m in Sources */,
 				8011EAFD14EB158F0044E8AA /* FBDialog.m in Sources */,
-				80FD92F514EDDB6100159707 /* FacebookConnectPlugin.m in Sources */,
+				805FD65014EDF1860044D5AD /* FacebookConnectPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
